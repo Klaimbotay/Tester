@@ -15,11 +15,11 @@ QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
 
-HEADERS +=     \
+HEADERS +=     tst_test1.h \
     ../app/quad.h \
     quad_test.h
 
 SOURCES +=     main.cpp \
-    ../app/quad.c
+    ../app/quad.c \
 
 INCLUDEPATH += ../app
