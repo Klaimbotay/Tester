@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "quad.h"
-
+//нахождение корней
 values quad(double a, double b, double c){
     values value;
     if (a == 0 && b != 0){
